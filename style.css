@@ -47,47 +47,36 @@ table {
 body{
 	background-color: #1B1B1F;
 	color:white;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family:'Raleway', sans-serif;
 	position: relative;
 }
-
-/*header
-.banner{
-	color:rgb(240, 238, 238);
-	background-image: url("img/concierto.jpg") center no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-	opacity:3em;
-	height: 600px; 
-	padding-top: 180px;
-	opacity: .2em;
-	text-align: center;
-	width: 50%;
-	box-sizing: border-box;
-
+nav{
+    background-color: #2d3436;
+    margin-bottom: -2%;
 }
-.banner .more:hover {
 
-    background-color: rgba(255, 255, 255, 0.05);
-
+.menu{
+    display: flex;
+    padding: 0px;
 }
-.banner .more {
 
-    background-image: url("img/fondo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
-    border-radius: 50%;
-    color: rgb(226, 220, 220);
-    display:-ms-inline-grid;
-    height: 1em;
-    text-indent: 0em;
-    overflow: hidden;
-    white-space: nowrap;
-    width: 1em;
-    z-index: 2;
-    margin: 1em auto 5em auto;
-}*/
+nav ul{
+    display: inline-block;
+    padding: 16px;
+    margin-left: 5%;
+}
+
+ul li{
+    display: inline;
+}
+
+li a{
+    padding: 26px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 header#front-img{
     width: 100%;
     height: 100vh;
@@ -120,6 +109,14 @@ header#front-img{
 	word-spacing: 1px;
 	letter-spacing: 1px;
 	line-height: 30px;
+}
+h1{
+    font-family: 'Monoton', cursive;
+    font-size: 73px;
+    color: #DFE0E4
+}
+h3{
+    color:rgb(75, 61, 61);
 }
 .inner h1{
 	color:rgb(255, 254, 254);
@@ -209,28 +206,9 @@ header#front-img{
     background-color: orange;
     opacity: 0.4em;
 }
-/*
-.thumbnails_inner .button2{
-	background-color: #7F92CF;
-}
-.thumbnails_inner .button3{
-	background-color: #9D7ED0;
-}
-.thumbnails_inner .button4{
-	background-color: #7F92CF;
-}
-.thumbnails_inner .button5{
-	background-color: #9D7ED0;
-}
-.thumbnails_inner .button6{
-	background-color: #70C7BE;
-}*/
-.thumbnails_inner a:hover{
-	opacity: .9;
-}
-
 /*footer*/
 footer{
+    background-color: rgb(105, 64, 105);
 	font-size: 14px;
 	margin: 50px auto 0 auto;
 	text-align: center;
